@@ -1,0 +1,234 @@
+@font-face {
+
+    font-family: 'Fancy';
+    src: url(../assets/fonts/parisienne-regular.ttf);
+    
+}
+
+@font-face {
+
+    font-family: 'Normal';
+    src: url(../assets/fonts/Abel-Regular.ttf);
+
+}
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+    main {
+
+        .middle-containers {
+
+            margin-top: 10vh;
+            width: 90vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-inline: 5vw;
+
+            .container-1 {
+
+                display: flex;
+                flex-direction: row;
+                width: 80%;
+                height: 70vh;
+                margin-bottom: 10vh;
+
+                .text {
+
+                    width: 35%;
+                    height: 100%;
+                    float: left;
+                    display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+
+                    .header {
+
+                        h1 {
+    
+                            font-family: "Fancy";
+
+                        }
+
+                    }
+
+                    p {
+
+                        font-size: 1.075em;
+                        font-family: "Normal";
+
+                    }
+
+                }
+
+                .image {
+
+                    width: 62%;
+                    float: left;
+                    height: 100%;
+                    float: right;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 20px;
+                        border: 10px solid green;
+
+                    }
+
+                }
+
+            }
+
+            .container-2 {
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 60vh;
+                margin-bottom: 10vh;
+                margin-top: 10vh;
+                overflow: hidden;
+
+                .main-image {
+
+                    width: 25%;
+                    margin-inline: 5%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    
+                    .main-image-text {
+
+                        text-align: center;
+                        width: 90%;
+                        height: 90%;
+
+                        h1 {
+
+                            font-family: "Fancy";
+
+                        }
+
+                        p {
+
+                            font-family: "Normal";
+
+                        }
+
+                    }
+
+                }
+
+                .main-image-1 {
+
+                    background-image: url("../assets/images/22.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+
+                }
+
+                .main-image-2 {
+
+                    background-image: url("../assets/images/11.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+
+                }
+
+                .main-image-3 {
+
+                    background-image: url("../assets/images/33.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+
+                }
+
+            }
+
+        }
+
+        .full-containers {
+
+            margin-top: 10vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: cadetblue;
+
+            .container-3 {
+
+                display: flex;
+                flex-direction: row;
+                width: 80%;
+                height: 70vh;
+                margin-bottom: 10vh;
+                margin-top: 10vh;
+    
+                .image {
+    
+                    width: 62%;
+                    float: left;
+                    height: 100%;
+    
+                    img {
+    
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 20px;
+                        border: 10px solid green;
+    
+                    }
+    
+                }
+    
+                .text {
+    
+                    width: 35%;
+                    height: 100%;
+                    float: right;
+                    display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+    
+                    .header {
+    
+                        h1 {
+     
+                            font-family: "Fancy";
+    
+                        }
+    
+                    }
+    
+                    p {
+    
+                        font-size: 1.075em;
+                        font-family: "Normal";
+    
+                    }
+    
+                }
+    
+            }
+
+        }
+
+    }
+
+}

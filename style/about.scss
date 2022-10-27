@@ -1,0 +1,248 @@
+@import url("./colours.css");
+
+@font-face {
+
+    font-family: 'Fancy';
+    src: url(../assets/fonts/parisienne-regular.ttf);
+    
+}
+
+@font-face {
+
+    font-family: 'Normal';
+    src: url(../assets/fonts/Abel-Regular.ttf);
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+    header {
+
+        .full-header {
+
+            background-image: url("../assets/images/Market.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 80vh;
+
+            .header-text {
+
+                display: flex;
+                text-align: center;
+                width: 100%;
+                height: 80%;
+                align-items: center;
+                justify-content: center;
+
+                h1 {
+
+                    font-family: "Fancy";
+                    font-size: 5em;
+                    background-color: chartreuse;
+                    border-radius: 20px;
+                    padding-inline: 5%;
+                    padding-top: 1%;
+                    padding-bottom: 1%;
+
+                }
+
+            }
+
+            .navbar {
+
+                width: 100vw;
+                background-color: aqua;
+                height: 15vh;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                top: 0;
+
+                .navbar-container {
+
+                    width: 100%;
+                    height: 45%;
+
+                    .navbar-link {
+
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        float: right;
+                        text-decoration: none;
+                        color: #977f4a;
+                        font-size: 150%;
+                        background-color: bisque;
+                        font-family: Fancy;
+                        margin-right: 50px;
+                        border: 3px solid red;
+                        border-radius: 5px;
+                        height: 100%;
+                        padding-inline: 3%;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    main {
+
+        .splitter {
+
+            align-self: center;
+            height: 15px;
+            background-color: aqua;
+            border: 4px solid red;
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+            width: 80%;
+
+            p {
+
+                display: none;
+
+            }
+
+        }
+
+        .full-containers {
+
+            margin-top: 10vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .container-1 {
+
+                display: flex;
+                flex-direction: row;
+                width: 80%;
+                height: 70vh;
+                margin-bottom: 10vh;
+                margin-top: 10vh;
+    
+                .image {
+    
+                    width: 48%;
+                    float: left;
+                    height: 100%;
+    
+                    img {
+    
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 20px;
+                        border: 10px solid green;
+    
+                    }
+    
+                }
+    
+                .text {
+    
+                    width: 48%;
+                    height: 100%;
+                    float: right;
+                    display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+    
+                    .header {
+    
+                        h1 {
+     
+                            font-family: "Fancy";
+    
+                        }
+    
+                    }
+    
+                    p {
+    
+                        font-size: 1.075em;
+                        font-family: "Normal";
+    
+                    }
+    
+                }
+    
+            }
+
+            .container-2 {
+
+                display: flex;
+                flex-direction: row;
+                width: 80%;
+                height: 70vh;
+                margin-bottom: 10vh;
+                margin-top: 10vh;
+    
+                .image {
+    
+                    width: 48%;
+                    float: right;
+                    height: 100%;
+    
+                    img {
+    
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 20px;
+                        border: 10px solid green;
+    
+                    }
+    
+                }
+    
+                .text {
+    
+                    width: 48%;
+                    height: 100%;
+                    float: left;
+                    display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+    
+                    .header {
+    
+                        h1 {
+     
+                            font-family: "Fancy";
+    
+                        }
+    
+                    }
+    
+                    p {
+    
+                        font-size: 1.075em;
+                        font-family: "Normal";
+    
+                    }
+    
+                }
+    
+            }
+
+        }
+
+    }
+
+}

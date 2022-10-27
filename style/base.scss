@@ -1,0 +1,90 @@
+@import url("./colours.css");
+
+@font-face {
+
+    font-family: 'Fancy';
+    src: url(../assets/fonts/parisienne-regular.ttf);
+    
+}
+
+@font-face {
+
+    font-family: 'Normal';
+    src: url(../assets/fonts/Abel-Regular.ttf);
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+    header {
+
+        .navbar {
+
+            width: 100vw;
+            background-color: aqua;
+            height: 15vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 0;
+
+            .navbar-container {
+
+                width: 100%;
+                height: 45%;
+
+                .navbar-link {
+
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    float: right;
+                    text-decoration: none;
+                    color: #977f4a;
+                    font-size: 150%;
+                    background-color: bisque;
+                    font-family: Fancy;
+                    margin-right: 50px;
+                    border: 3px solid red;
+                    border-radius: 5px;
+                    height: 100%;
+                    padding-inline: 3%;
+
+                }
+
+            }
+
+        }
+
+    }
+
+    main {
+
+        .splitter {
+
+            align-self: center;
+            height: 15px;
+            background-color: #dfe5df;
+            border: 4px solid #b3bbb3;
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+            width: 80%;
+
+            p {
+
+                display: none;
+
+            }
+
+        }
+
+    }
+
+}

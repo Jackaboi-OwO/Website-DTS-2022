@@ -1,0 +1,166 @@
+@import url("./colours.css");
+@font-face {
+  font-family: "Fancy";
+  src: url(../assets/fonts/parisienne-regular.ttf);
+}
+@font-face {
+  font-family: "Normal";
+  src: url(../assets/fonts/Abel-Regular.ttf);
+}
+body header .navbar .logo img { 
+  width: 90%;
+  padding-top: 35%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body header .full-header {
+  background-image: url("../assets/images/Market.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+body header .full-header .header-text {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 80%;
+  align-items: center;
+  justify-content: center;
+}
+body header .full-header .header-text h1 {
+  font-family: "Fancy";
+  font-size: 5em;
+  background-color: #f7f6f6;
+  border-radius: 20px;
+  padding-inline: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+body header .full-header .navbar {
+  width: 100vw;
+  background-color: #dfe5df;
+  height: 15vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0;
+}
+body header .full-header .navbar .navbar-container {
+  width: 100%;
+  height: 45%;
+}
+body header .full-header .navbar .navbar-container .navbar-link {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  text-decoration: none;
+  color: #977f4a;
+  font-size: 150%;
+  background-color: #f7f6f6;
+  font-family: Fancy;
+  margin-right: 50px;
+  border: 3px solid #b3bbb3;
+  border-radius: 5px;
+  height: 100%;
+  padding-inline: 3%;
+}
+body main .splitter {
+  align-self: center;
+  height: 15px;
+  background-color: #dfe5df;
+  border: 4px solid red;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  width: 80%;
+}
+body main .splitter p {
+  display: none;
+}
+body main .full-containers {
+  margin-top: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main .full-containers .container-1 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 70vh;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+body main .full-containers .container-1 .image {
+  width: 48%;
+  float: left;
+  height: 100%;
+}
+body main .full-containers .container-1 .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+body main .full-containers .container-1 .text {
+  width: 48%;
+  height: 100%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+body main .full-containers .container-1 .text .header h1 {
+  font-family: "Fancy";
+}
+body main .full-containers .container-1 .text p {
+  font-size: 1.075em;
+  font-family: "Normal";
+}
+body main .full-containers .container-2 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 70vh;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+}
+body main .full-containers .container-2 .image {
+  width: 48%;
+  float: right;
+  height: 100%;
+}
+body main .full-containers .container-2 .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+body main .full-containers .container-2 .text {
+  width: 48%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+body main .full-containers .container-2 .text .header h1 {
+  font-family: "Fancy";
+}
+body main .full-containers .container-2 .text p {
+  font-size: 1.075em;
+  font-family: "Normal";
+}/*# sourceMappingURL=about.css.map */
