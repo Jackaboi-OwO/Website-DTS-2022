@@ -8,7 +8,7 @@
 }
 body header .navbar .logo img { 
   width: 90%;
-  padding-top: 45%;
+  padding-top: 35%;
 }
 
 body {
@@ -151,9 +151,10 @@ body main .full-containers .container-3 .text .header h1 {
 body main .full-containers .container-3 .text p {
   font-size: 1.075em;
   font-family: "Normal";
-}/*# sourceMappingURL=index.css.map */
+}
 
 @media only screen and (max-width: 600px) {
+
   body {
     margin: 0;
     padding: 0;

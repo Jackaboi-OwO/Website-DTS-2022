@@ -57,3 +57,9 @@ body main .splitter {
 body main .splitter p {
   display: none;
 }/*# sourceMappingURL=base.css.map */
+
+@media only screen and (max-width: 600px) {
+
+  body header .navbar .navbar-containers .navbar-container a { 
+    font-size: 10px;
+  }
