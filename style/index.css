@@ -203,7 +203,6 @@ body main .full-containers .container-3 .text p {
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 20px;
-    border: 10px solid green;
   }
   body main .middle-containers .container-2 {
     display: flex;
@@ -260,7 +259,6 @@ body main .full-containers .container-3 .text p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: cadetblue;
   }
   body main .full-containers .container-3 {
     display: flex;
@@ -284,7 +282,6 @@ body main .full-containers .container-3 .text p {
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 20px;
-    border: 10px solid green;
   }
   body main .full-containers .container-3 .text {
     width: 100%;
