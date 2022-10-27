@@ -152,7 +152,8 @@ body main .full-containers .container-3 .text p {
   font-size: 1.075em;
   font-family: "Normal";
 }/*# sourceMappingURL=index.css.map */
-@media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 600px) {
   body {
     margin: 0;
     padding: 0;
