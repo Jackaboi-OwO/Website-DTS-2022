@@ -23,6 +23,7 @@ body header .navbar {
   position: relative;
   top: 0;
 }
+
 body header .navbar .navbar-container {
   width: 100%;
   height: 45%;
@@ -38,12 +39,15 @@ body header .navbar .navbar-container .navbar-link {
   color: #977f4a;
   font-size: 150%;
   background-color: #f7f6f6;
-  font-family: Fancy;
+  font-family: "Fancy";
   margin-right: 50px;
   border: 3px solid #b3bbb3;
   border-radius: 5px;
   height: 100%;
   padding-inline: 3%;
+}
+body header .navbar .navbar-container .navbar-link:hover {
+  background-color: #b3bbb3;
 }
 body main .splitter {
   align-self: center;
@@ -59,7 +63,38 @@ body main .splitter p {
 }/*# sourceMappingURL=base.css.map */
 
 @media only screen and (max-width: 600px) {
-
-  body header .navbar .navbar-containers .navbar-container a { 
-    font-size: 10px;
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
   }
+  body header .navbar {
+    width: 100vw;
+    height: 15vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+  }
+  body header .navbar .navbar-container {
+    width: 100%;
+    height: 45%;
+  }
+  body header .navbar .navbar-container .navbar-link {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: Fancy;
+    font-size: small;
+    margin-right: 25px;
+    border-radius: 5px;
+    height: 100%;
+    padding-inline: 3%;
+  }
+}
